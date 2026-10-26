@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ops-center": {
+      "type": "http",
+      "url": "${user_config.mcp_url}"
+    }
+  }
+}

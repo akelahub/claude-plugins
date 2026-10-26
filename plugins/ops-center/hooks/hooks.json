@@ -1,0 +1,16 @@
+{
+  "description": "Ask the user before every premium (paid) Ops-Center source call.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*ops-center.*__search_source",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}\"/hooks/premium-gate.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

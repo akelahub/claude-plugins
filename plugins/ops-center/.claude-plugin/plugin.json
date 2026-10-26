@@ -1,0 +1,17 @@
+{
+  "name": "ops-center",
+  "version": "0.1.0",
+  "description": "Ops-Center over MCP: search, enrich, score and keep case files with the platform's own skills. Sign in with OAuth (no token to paste) and choose the permissions on the consent screen. Premium sources always ask first.",
+  "author": {
+    "name": "Akela"
+  },
+  "homepage": "https://github.com/akelahub/claude-plugins",
+  "userConfig": {
+    "mcp_url": {
+      "type": "string",
+      "title": "Ops-Center MCP URL",
+      "description": "The Ops-Center MCP endpoint. Production is https://api.ops.akela.ai/v1/mcp; testing is https://api.ops.test.akela.ai/v1/mcp.",
+      "default": "https://api.ops.akela.ai/v1/mcp"
+    }
+  }
+}

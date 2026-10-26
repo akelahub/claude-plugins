@@ -1,0 +1,14 @@
+{
+  "name": "akela",
+  "description": "Akela's Claude Code plugins.",
+  "owner": {
+    "name": "Akela"
+  },
+  "plugins": [
+    {
+      "name": "ops-center",
+      "source": "./plugins/ops-center",
+      "description": "Connects Claude Code to Ops-Center over MCP, with the skills for people and organization search, enrichment, scoring and case files, and a hook that asks before every paid source."
+    }
+  ]
+}
